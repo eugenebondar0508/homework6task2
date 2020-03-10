@@ -1,0 +1,128 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+​
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+​
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+​
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+​
+a {
+    text-decoration: underline;
+    outline: none;
+}
+​
+a:hover {
+    text-decoration: none;
+}
+​
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    
+}
+
+.list{
+    background-color: #3b3f45;
+    max-width: 1200px;
+    max-height: 710px;
+    margin: 0 auto;
+}
+header{
+    background-color: #4a4f56;
+    text-align: center;
+    
+}
+h1{
+    padding-top: 28px;
+    color: #eb7e7b;
+    font-style: Trebuchet;
+    font-size: 25px;
+}
+h4{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: #eb7e7b;
+    font-size: 16px;
+}
+
+.food{
+
+    padding-top: 40px;
+}
+footer{
+    border: solid 1px #4a4f56 ;
+    background-color: #4a4f56;
+    color: #eb7e7b;
+    text-align: center;
+    margin: 38px 184px 96px 184px;
+    padding-bottom: 26px;
+    padding-top: 24px;
+    text-align: center;
+    font-size: 18px;
+}
+.footer{
+    padding-top: 96px;
+}
+ul{
+    list-style-type: none;
+    ;
+    color: white;
+    
+    background-color:#4a4f56 ;
+    margin: 0 184px;
+}
+li{
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 21px;
+    padding-top: 20px;
+}
+.li2{
+    background-color: #7a7593;
+
+}
+.li4{
+    background-color: #7a7593;
+
+}
+.li6{
+    background-color: #7a7593;
+}
+li:hover{
+    background-color:#3b3f45;
+    color:white ;
+    border-top:2px double white ;
+    border-bottom:2px double white ;
+}
+
+li:active{
+    background-color:orangered;
+}
+li:checked{
+    text-decoration: line-through;
+
+}
